@@ -12,6 +12,6 @@ class facilitatorModel: LearnerModel {
 
     init(facilName: String, facilAge: Int, facilGender: String, facilProfileLearner: String, facilPerk: String) {
         perk = facilPerk
-        super.init(nameLearner: facilName, ageLearner: facilAge, genderLearner: facilGender, imageProfileLearner: facilImageProfile)
+        super.init(nameLearner: facilName, ageLearner: facilAge, genderLearner: facilGender, imageProfileLearner: facilProfileLearner)
     }
 }

@@ -15,12 +15,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var learnerGenderLabel: UILabel!
     
     var learnerInstance: LearnerModel? //ini copy-an dari Learner Model
+    var facilitatorInstance: facilitatorModel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         learnerInstance = LearnerModel (nameLearner: "Dea", ageLearner: 23, genderLearner: "Female", imageProfileLearner: "")
-        facilitatorInstance = FacilitatorModel()
-        
+        facilitatorInstance = facilitatorModel(facilName: "Debak", facilAge: 10, facilGender: "Girl", facilProfileLearner: "", facilPerk: "Lalala")
         updateUI()
     }
 
