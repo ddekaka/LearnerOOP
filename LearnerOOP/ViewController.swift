@@ -10,11 +10,39 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var learnerNameLabel: UILabel!
+    @IBOutlet weak var learnerAgeLabel: UILabel!
+    @IBOutlet weak var learnerGenderLabel: UILabel!
+    
+    var learnerInstance: LearnerModel? //ini copy-an dari Learner Model
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        //testlagi
+        learnerInstance = LearnerModel (nameLearner: "Dea", ageLearner: 23, genderLearner: "Female", imageProfileLearner: "")
+        updateUI()
     }
 
+    func updateUI(){
+        if let instance = learnerInstance{
+            learnerNameLabel.text = instance.name
+            learnerAgeLabel.text = "\(instance.age)"
+            learnerGenderLabel.text = instance.gender
+        }
+        
+    }
 
+    @IBAction func buttonAgePressed(_ sender: Any) {
+       // learnerInstance?.increaseAge()
+        //updateUI()
+        if let instance = learnerInstance {
+            instance.increaseAge()
+             updateUI()
+        }
+       
+        
+    }
+    
 }
+
+
 
