@@ -13,7 +13,8 @@ class LearnerModel {
     var age: Int
     var gender: String
     var imageProfile: String
-    init(nameLearner: String, ageLearner: Int, genderLearner: String, imageProfileLearner: String) { self.name = nameLearner
+    init(nameLearner: String, ageLearner: Int, genderLearner: String, imageProfileLearner: String) {
+        self.name = nameLearner
         self.age = ageLearner
         self.gender = genderLearner
         self.imageProfile = imageProfileLearner

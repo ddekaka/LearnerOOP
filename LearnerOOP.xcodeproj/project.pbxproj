@@ -13,6 +13,7 @@
 		DB389FD2228BD86B00E53F07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB389FD1228BD86B00E53F07 /* Assets.xcassets */; };
 		DB389FD5228BD86B00E53F07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB389FD3228BD86B00E53F07 /* LaunchScreen.storyboard */; };
 		DB944386228BE59C00ACBE24 /* LearnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB944385228BE59C00ACBE24 /* LearnerModel.swift */; };
+		DB944388228BF56300ACBE24 /* objectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB944387228BF56300ACBE24 /* objectModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DB389FD4228BD86B00E53F07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB389FD6228BD86B00E53F07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB944385228BE59C00ACBE24 /* LearnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnerModel.swift; sourceTree = "<group>"; };
+		DB944387228BF56300ACBE24 /* objectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = objectModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				DB389FD1228BD86B00E53F07 /* Assets.xcassets */,
 				DB389FD3228BD86B00E53F07 /* LaunchScreen.storyboard */,
 				DB389FD6228BD86B00E53F07 /* Info.plist */,
+				DB944387228BF56300ACBE24 /* objectModel.swift */,
 			);
 			path = LearnerOOP;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB944388228BF56300ACBE24 /* objectModel.swift in Sources */,
 				DB389FCD228BD86A00E53F07 /* ViewController.swift in Sources */,
 				DB944386228BE59C00ACBE24 /* LearnerModel.swift in Sources */,
 				DB389FCB228BD86A00E53F07 /* AppDelegate.swift in Sources */,
